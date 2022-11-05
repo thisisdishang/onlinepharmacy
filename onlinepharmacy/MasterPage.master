@@ -1,0 +1,51 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="Styles/StyleSheet.css" rel="stylesheet" type="text/css" />  
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper">            
+        <div class="menu">  
+            <h1>Genesis Pharmacy</h1>
+            <ul> 
+                <li><a href="logout.aspx">Log Out</a></li> 
+                <li><a href="About.aspx">About Us</a></li> 
+                <li><a href="Billing.aspx">Billing</a></li> 
+                <li><a href="Manufacturer.aspx">Manufacturer</a></li>
+                <li><a href="Agent.aspx">Agent</a></li>
+                <li><a href="Medicine.aspx">Medicine</a></li>                            
+                   
+             </ul>
+        </div>
+        <div class="clear"></div>
+         <br />  
+        <div class="content">
+            <asp:ContentPlaceHolder id="ContentBody" runat="server">
+            
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear"></div>
+        <div class="footer" align="center">
+            <asp:Label ID="Label1" runat="server" Text="Powered By Rana Corporation ®" 
+                Font-Bold="False" Font-Size="20pt"></asp:Label>
+        </div>
+    </div> 
+    </form>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+

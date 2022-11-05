@@ -1,0 +1,114 @@
+﻿
+body,div,dl,dr,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fielset,textarea,p,block 
+{
+	padding:0;
+	margin:0;
+	
+}
+/*body*/
+body
+{
+	background-color:rgb(237,237,237);
+	font-family:"Arial",Helavertica,Sans-Serif;
+	font-size:12px;
+}
+/*Page*/
+.wrapper
+{
+	width:1200px;
+	height:720px;	
+	margin:auto;
+	margin-top:20px;
+}
+.wrapper h1
+{
+	padding:5px;
+	float:left;		
+	height: 31px;
+	width: 484px;
+	font-size:30px;
+	font-weight:bold;
+	
+	
+}
+/*Home Page*/
+.content
+{
+	width:100%;
+	height:70%;
+	background-color:rgb(254,254,254);
+	border:1px solid rgb(224,224,224);
+	
+	float:left;
+	margin-top:2px;
+	margin-bottom:11px;
+	min-height:400px;
+}
+/*Menu*/
+.menu
+{	
+	background-color:rgb(10,110,178);
+	width:100%;
+	margin:0px opx 10px;
+	padding:0px;
+	height:40px;
+	color:rgb(243,243,243);
+	
+}
+.navigate_first
+{
+	border-left:0px;
+	
+}
+.navigate_s
+{
+	float:left;
+	border-right:1px solid rgb(10,85,125);
+	border-left:1px solid rgb(67,153,200);
+	height:40px;
+	background-color:rgb(14,79,114);
+}
+.menu ul li
+{
+	float:right;
+	display:block;
+	list-style:none;
+	border-right:1px solid rgb(10,85,125);
+	border-left:1px solid rgb(67,153,200);
+}
+.menu ul li.navigate_first:hover
+{
+	
+}
+.menu ul li a
+{
+	font-size:13px;
+	font-weight:bold;
+	line-height:40px;
+	padding:8px 20px;
+	color:rgb(255,255,255);
+	text-decoration:none;
+}
+.menu ul li:hover
+{
+	background-color:rgb(14,79,114);
+	border-right:1px solid rgb(14,89,130);
+}
+.clear
+{
+	clear:both;
+}
+/*Footer*/
+.footer
+{	
+	height:44px;
+	background-color:rgb(10,110,178);
+	color:rgb(255,255,255);
+		
+}
+.footer h2
+{
+	padding:10px;
+	text-align:center;
+	
+}
