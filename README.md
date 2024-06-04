@@ -17,7 +17,7 @@
 | ![](/Screenshot/5.png) |
 | `Manufacturer Page` |
 | ![](/Screenshot/6.png) |
-| `Manufacturer Page Accessible By Admin Only` |
+| `Manufacturer Page Not Accessible By Other User Except Admin` |
 | ![](/Screenshot/7.png) |
 | `Billing Page` |
 | ![](/Screenshot/8.png) |
